@@ -1,0 +1,127 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+  }
+  h2 {
+    font-size: 30px;
+    color: blue;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  /* Form styles */
+  .form-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67rem;
+    gap: 1.5rem;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+  .delete {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .delete:hover {
+    background-color: blue;
+  }
+  .edit {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .edit:hover {
+    background-color: blue;
+  }
+  .save {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .save:hover {
+    background-color: blue;
+  }
+  
+  /* Book list styles */
+  .book-list-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

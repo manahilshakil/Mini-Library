@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Mini Library</title>
+    <link rel="stylesheet" href="bstyle.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>Mini Library</h1>
+      </header>
+      <div class="form-container">
+        <h2>Add a Book</h2>
+        <form id="book-form">
+          <input type="text" required placeholder="Title" id="title" />
+          <input type="text" required placeholder="Author" id="author" />
+          <button type="submit">Add Book</button>
+        </form>
+      </div>
+      <div class="book-list-container">
+        <h2>All Books</h2>
+        <div id="book-list"></div>
+      </div>
+    </div>
+
+    <script src="books.js"></script>
+  </body>
+</html>
